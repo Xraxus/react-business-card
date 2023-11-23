@@ -1,8 +1,10 @@
+import myPhoto from "./src/assets/photo.jfif";
+
 export default function Intro() {
   return (
     <div className="intro">
       <img
-        src="./src/assets/photo.jfif"
+        src={myPhoto}
         alt="A smiling man that's looking into a camera, wearing a black tshirt"
         className="intro__photo"
       />
