@@ -11,12 +11,17 @@ export default function Intro() {
       <div className="intro__info">
         <h1 className="intro__full-name">Kamil Kobylarz</h1>
         <h2 className="intro__role">Frontend Developer</h2>
-        <a href="mailto:kamil.m.kobylarz@gmail.com" className="intro__link">
+        <a
+          href="mailto:kamil.m.kobylarz@gmail.com"
+          className="intro__link"
+          target="_blank"
+        >
           <i class="fa-solid fa-envelope"></i>Email
         </a>
         <a
           href="https://www.linkedin.com/in/kamil-kobylarz1/"
           className="intro__link intro__link--blue"
+          target="_blank"
         >
           <i class="fa-brands fa-linkedin"></i>LinkedIn
         </a>
