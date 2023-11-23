@@ -1,4 +1,4 @@
-import myPhoto from "./src/assets/photo.jfif";
+import myPhoto from "./assets/photo.jfif";
 
 export default function Intro() {
   return (
